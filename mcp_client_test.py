@@ -66,3 +66,7 @@ async def tavily_mcp_search(query: str):
     )
     return result
     # print(result)
+
+
+if __name__ == "__main__":
+    asyncio.run(get_all_tools())

@@ -1,4 +1,5 @@
 langgraph==1.2.2
+ormsgpack==1.12.2  # 1.13.0 DLL is blocked by Windows Smart App Control
 langchain==1.3.2
 langchain-openai>=1.0,<2
 psycopg[binary]==3.3.4
